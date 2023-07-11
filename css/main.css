@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ===============---------------------body-start------================= */
+
+.body {}
+
+
+/* ===============---------------------body-end------================= */
+
+
+/* ===============---------------------header-start------================= */
+
+.header {}
+
+.section-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    z-index: 10 !important;
+    margin-bottom: 50px;
+}
+
+.logo-box {
+    width: 200px;
+}
+
+.logo-home {}
+
+.ouren-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.location-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.icon-contact-one {}
+
+.ouren-text-one {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    color: #626270;
+    width: 350px;
+    letter-spacing: 1px;
+}
+
+.ouren-text-two {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    color: #626270;
+    width: 130px;
+    letter-spacing: 1px;
+}
+
+.ouren-text-three {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 12px;
+    color: #626270;
+    width: 145px;
+    letter-spacing: 1px;
+}
+
+.call-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.globe-box {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.seb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section-menu {
+    padding-top: 25px;
+    z-index: 10 !important;
+    position: absolute;
+}
+
+.menu-bigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-origin {
+    width: 1140px;
+    height: 70px;
+    background: #2C2C32;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.line-be {
+    width: 0;
+    background-color: #FCDB5C;
+    height: 2px;
+    transform: translateY(5px);
+}
+
+.link-top-menu:hover .line-be {
+    width: 100%;
+    transition: all 0.4s linear;
+}
+
+.link-top-menu {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: px;
+}
+
+.link-top-menu:hover {
+    color: #FCDB5C;
+    transition: 0.4s;
+}
+
+.section-add {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(-37px) !important;
+}
+
+.add-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../assets/img/background-iron.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.back-ten {
+    background-color: #2c2c32d2;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.add-map {}
+
+.map-foto {
+    width: 800px;
+    height: 500px;
+}
+
+.add-text {}
+
+.box-of-number {
+    text-align: center;
+}
+
+.number-13 {
+    width: auto;
+    height: auto;
+}
+
+.year-text {
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.line-biger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.line {
+    width: 130px;
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box-of-year {
+    text-align: center;
+    width: 320px;
+}
+
+.all-text {
+    font-family: "Raleway";
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 106px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.number-250 {
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+}
+
+.ob-text {
+    font-family: "Raleway";
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+
+/* ===============---------------------header-end------================= */
+
+
+/*================------------------main-start------------==================== */
+
+.main {}
+
+.main-box {}
+
+.main-sectore {}
+
+.text-of-top {
+    margin-bottom: 45px;
+    padding-left: 20px;
+}
+
+.fact-text {
+    font-family: Raleway;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: start;
+}
+
+.fact-text-mini {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #787878;
+}
+
+.cards-bigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-centered {
+    text-align: center;
+}
+
+.card-one {
+    width: 300px;
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F6F2;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.cards-x-img {}
+
+.card-text-me {
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card-two {
+    width: 350px;
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F6F2;
+    border-radius: 20px;
+    margin-right: 60px;
+}
+
+.card-three {
+    width: 350px;
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F6F2;
+    border-radius: 20px;
+}
+
+.contic-big {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    width: auto;
+    height: 650px;
+}
+
+.contic-box {
+    width: 1130px;
+    text-align: center;
+}
+
+.button-info {
+    width: 1130px;
+    height: 70px;
+    margin-bottom: 20px;
+    background: #F7F6F2;
+    border: 0px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+.plus-img {
+    margin-right: 20px;
+}
+
+.title-button-info {
+    font-family: Raleway;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.add-box {}
+
+.lorem-text {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+
+/* .giga-box {
+    width: 300px;
+    height: 350px;
+    display: block !important;
+    transform: rotate(10deg);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fif-box {
+    width: 750px;
+    height: 200px;
+    background-color: #2C2C32;
+    transform: rotate(-10deg) translateY(-10px) translateX(-40px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 56px;
+} */
+
+
+/* ===============----------------main-sector-two---------------======== */
+
+.main-sector-two {}
+
+.defenity-sector {}
+
+.text-stroi {}
+
+.fact-text {}
+
+.fact-text-mini {}
+
+.section-of-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-the-buttons {
+    position: relative;
+    z-index: 4;
+}
+
+.button-the-redemp-one {
+    width: 442px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-two {
+    width: 342px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-three {
+    width: 310px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-four {
+    width: 315px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-five {
+    width: 276px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp {
+    width: 296px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.redemp-number {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 20px;
+    color: #626270;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redm-text {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #626270;
+}
+
+.section-the-carder {}
+
+.card-back-room {
+    width: 1021px;
+    height: 800px;
+    background-image: url(../assets/img/side-view-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 120px;
+    border-radius: 200px 0px 0px;
+    z-index: 20 !important;
+}
+
+.cards-bigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-card-ui {
+    width: 200px;
+    height: 663px;
+    background-image: url(../assets/img/line-yellow.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transform: translateY(-30px) translateX(-360px);
+    position: absolute;
+    z-index: 4;
+}
+
+.texted-card-gray {}
+
+.sector-gray-text {
+    width: 812px;
+    height: 663px;
+    background-image: url(../assets/img/back-radius.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+    position: relative;
+}
+
+.card-of-hidden {
+    width: 220px;
+    height: 1000px;
+    position: absolute;
+    transform: rotate(15deg) translateX(-400px);
+    background-color: white;
+    z-index: 1;
+}
+
+.sector-securit-flex {}
+
+.text-card-grey {
+    font-family: "Raleway";
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.text-card-mini {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 482px;
+    color: white;
+}
+
+.make-deg {}
+
+.ras-deg-button {
+    width: 302px;
+    height: 70px;
+    background-image: url(../assets/img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.ras-button-text {}
