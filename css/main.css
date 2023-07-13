@@ -336,7 +336,7 @@
     justify-content: center;
     padding-top: 50px;
     width: auto;
-    height: 650px;
+    height: 750px;
 }
 
 .contic-box {
@@ -407,11 +407,21 @@
 
 /* ===============----------------main-sector-two---------------======== */
 
-.main-sector-two {}
+.main-sector-two {
+    width: 100%;
+}
 
 .defenity-sector {}
 
-.text-stroi {}
+.text-stroi {
+    position: sticky;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
 
 .fact-text {}
 
@@ -420,7 +430,10 @@
 .section-of-info {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
 }
 
 .section-the-buttons {
@@ -444,6 +457,20 @@
     margin-bottom: 15px;
 }
 
+.button-the-redemp-one:hover {
+    background-image: url(../assets/img/reg-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-one:focus {
+    background-image: url(../assets/img/reg-1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
 .button-the-redemp-two {
     width: 342px;
     height: 70px;
@@ -458,6 +485,20 @@
     background-size: 100% 100%;
     background-color: rgba(255, 255, 255, 0);
     margin-bottom: 15px;
+}
+
+.button-the-redemp-two:hover {
+    background-image: url(../assets/img/reg-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-two:focus {
+    background-image: url(../assets/img/reg-2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
 }
 
 .button-the-redemp-three {
@@ -476,6 +517,20 @@
     margin-bottom: 15px;
 }
 
+.button-the-redemp-three:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-three:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
 .button-the-redemp-four {
     width: 315px;
     height: 70px;
@@ -490,6 +545,20 @@
     background-size: 100% 100%;
     background-color: rgba(255, 255, 255, 0);
     margin-bottom: 15px;
+}
+
+.button-the-redemp-four:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-four:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
 }
 
 .button-the-redemp-five {
@@ -508,7 +577,21 @@
     margin-bottom: 15px;
 }
 
-.button-the-redemp {
+.button-the-redemp-five:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-five:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-six {
     width: 296px;
     height: 70px;
     border: 0px;
@@ -522,6 +605,140 @@
     background-size: 100% 100%;
     background-color: rgba(255, 255, 255, 0);
     margin-bottom: 15px;
+}
+
+.button-the-redemp-six:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-six:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-seven {
+    width: 296px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-seven:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-seven:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-eight {
+    width: 296px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-eight:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-eight:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-nine {
+    width: 296px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-nine:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-nine:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-ten {
+    width: 296px;
+    height: 70px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 0;
+    background-image: url(../assets/img/bg-6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 15px;
+}
+
+.button-the-redemp-ten:focus {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
+}
+
+.button-the-redemp-ten:hover {
+    background-image: url(../assets/img/reg-3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: all 0.2s linear;
 }
 
 .redemp-number {
@@ -550,17 +767,17 @@
 .section-the-carder {}
 
 .card-back-room {
-    width: 1021px;
+    width: 850px;
     height: 800px;
     background-image: url(../assets/img/side-view-1.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 110% 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-top: 120px;
     border-radius: 200px 0px 0px;
-    z-index: 20 !important;
+    transition: all 0.2s linear;
 }
 
 .cards-bigger {
@@ -627,7 +844,11 @@
     color: white;
 }
 
-.make-deg {}
+.make-deg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
 .ras-deg-button {
     width: 302px;
@@ -635,6 +856,19 @@
     background-image: url(../assets/img/Rectangle\ 2.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 10px;
+    transform: translateX(-100px) translateY(-50px);
+    z-index: 185;
+    position: sticky;
 }
 
-.ras-button-text {}
+.ras-title {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+}
