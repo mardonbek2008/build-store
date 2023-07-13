@@ -257,6 +257,11 @@
 .text-of-top {
     margin-bottom: 45px;
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .fact-text {
@@ -409,6 +414,7 @@
 
 .main-sector-two {
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .defenity-sector {}
@@ -870,5 +876,171 @@
     font-weight: 500;
     line-height: 21px;
     letter-spacing: 0em;
+    text-align: center;
+}
+
+
+/* ======================---------------------main-sector-two-END-================================ */
+
+
+/* ====================----------------------main-sector-three-------------------================ */
+
+.main-sector-three {
+    width: auto;
+    height: auto;
+}
+
+.box-back-ft {
+    width: 100%;
+    height: 780px;
+    background-image: url(../assets/img/background-texting.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.protect-of-flex {
+    width: 1250px;
+    height: 500px;
+    background-image: url(../assets/img/podarok.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-one {}
+
+.on-project-text {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A1A1A1;
+}
+
+.line-of-text {
+    width: 700px;
+    height: 2px;
+    background-color: #787878;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.on-text-big {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 753px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.on-text-grey {
+    width: 565px;
+    color: #A1A1A1;
+    margin-bottom: 20px;
+}
+
+.yellow-span {
+    font-family: Raleway;
+    font-size: 35px;
+    color: #FCDB5C;
+}
+
+.pro-two {}
+
+.yellow-card {
+    width: 396px;
+    height: 693px;
+    background-color: #FCDB5C;
+    position: sticky;
+    transform: translateY(150px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 36px;
+}
+
+.yellow-cads-header {
+    font-family: Raleway;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.black-add {
+    width: 352px;
+    height: 115px;
+    background-color: #2C2C32;
+    color: #FCDB5C;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.yellow-cards-main-text {
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.mai-mini-text {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.call-phone {
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.ot-zayavka-black {
+    width: 302px;
+    height: 70px;
+    background-image: url(../assets/img/os-zayavka-black.png);
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px;
+    padding-top: 10px;
+}
+
+.buttons-text-white {
+    color: white;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
     text-align: center;
 }
