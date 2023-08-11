@@ -1240,3 +1240,152 @@
     width: 300px;
     height: 540px;
 }
+
+
+/* =================---------------Main-sector-five-----=========================== */
+
+.main-sector-five {}
+
+.sector-mini-five {
+    display: flex;
+    align-items: center;
+}
+
+.replacement-foto {}
+
+.img-replacement {
+    width: 600px;
+    height: 800px;
+}
+
+.replacement-box-and-info {
+    width: 100%;
+    height: 650px;
+    background: var(--bg-grey-warm, #F7F6F2);
+    display: flex;
+    justify-content: center;
+    padding-top: 93px;
+}
+
+.boxws {
+    width: 100%;
+}
+
+.oo-text {
+    color: var(--txt-grey-1, #787878);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pd-box-texts {
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.real-text {
+    color: var(--txt-grey, #383736);
+    font-family: Raleway;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lined-line {}
+
+.table-texts {}
+
+.kon-text {
+    color: var(--txt-grey, #383736);
+    font-family: Raleway;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.textbox-pro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 40px;
+}
+
+.toch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.toch-text {
+    color: var(--txt-grey-1, #787878);
+    padding-top: 10px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 175% */
+}
+
+.yellow-info-box {
+    width: 100%;
+    height: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FCDB5C;
+}
+
+.sec-yellow-one {}
+
+.text-sec-one {
+    color: var(--bg-dark, #2C2C32);
+    font-family: Raleway;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 460px;
+}
+
+.mini-text-secone {
+    color: var(--bg-dark, #2C2C32);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sec-info-two {}
+
+.get-button {
+    color: var(--yellow, #FCDB5C);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background-image: url(../assets/img/button.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
